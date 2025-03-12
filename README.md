@@ -4,12 +4,12 @@ This is a test for how to develop in gitlab for a project where the main fork is
 
 ## Setup
 
-- create a fork of the repository on github: https://github.com/ColmTalbot/test-for-mirroring/fork in your personal namespace
+- create a fork of the repository on github: https://github.com/colmtalbot-test/test-for-mirroring/fork in your personal namespace
 
 - clone the upstream repository
 
 ```console
-git clone git@github.com:ColmTalbot/test-for-mirroring.git
+git clone git@github.com:colmtalbot-test/test-for-mirroring.git
 cd test-for-mirroring
 ```
 
@@ -20,7 +20,7 @@ git remote add gitlab git@gitlab.com/ColmTalbot/test-for-mirroring.git
 ```
 
 - set up [repository mirroring](https://docs.gitlab.com/17.9/user/project/repository/mirror/)
-  - set the repository URL using ssh pointing to your fork `ssh://git@github.com/colmtalbot-testing/test-for-mirroring.git`
+  - set the repository URL using ssh pointing to your fork `ssh://git@github.com/colmtalbot/test-for-mirroring.git`
   - mirror direction: Pull
   - authentication method: SSH public key
   - username: git **Note: this is not your username**
