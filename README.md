@@ -21,7 +21,7 @@ git remote add gitlab git@gitlab.com/ColmTalbot/test-for-mirroring.git
 
 - set up [repository mirroring](https://docs.gitlab.com/17.9/user/project/repository/mirror/)
   - set the repository URL using ssh pointing to your fork `ssh://git@github.com/colmtalbot/test-for-mirroring.git`
-  - mirror direction: Pull
+  - mirror direction: Push
   - authentication method: SSH public key
   - username: git **Note: this is not your username**
 - after creating the mirror, copy the SSH public key and add it to your [github SSH keys](https://github.com/settings/keys)
